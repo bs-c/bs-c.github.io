@@ -150,7 +150,7 @@ template {
   font-display: swap;
 }
 html {
-  font-family: 'Microsoft Jhenghei', Lantinghei SC, 'lanting', PingFang SC, Seguo UI, Microsoft Yahei, Arial;
+  font-family: 'Microsoft Jhenghei', PingFang TC, Seguo UI, Microsoft Yahei, Arial;
 }
 html::-webkit-scrollbar {
   width: 8px;
@@ -252,6 +252,30 @@ a:hover {
   width: 100%;
   text-align: center;
   line-height: 4rem;
+}
+#aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/* 垂直置中 */
+  align-items: center;
+  height: calc(100vh - 130px);
+}
+#aboutcontainer h5 {
+  color: #f00;
+}
+#aboutcontainer img {
+  margin-bottom: 24px;
+  width: 20%;
+  border-radius: 10px;
+}
+#aboutcontainer .intro {
+  text-align: center;
+  border-bottom: 3px solid;
+  margin-bottom: 24px;
+}
+#aboutcontainer .murmur {
+  text-align: center;
 }
 @charset "utf-8";
 
