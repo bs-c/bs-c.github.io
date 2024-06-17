@@ -265,17 +265,20 @@ a:hover {
   color: #f00;
 }
 #aboutcontainer img {
-  margin-bottom: 24px;
+  margin: 12px;
   width: 20%;
   border-radius: 10px;
 }
 #aboutcontainer .intro {
+  width: 50vw;
   text-align: center;
   border-bottom: 3px solid;
-  margin-bottom: 24px;
+  padding: 12px 0;
 }
 #aboutcontainer .murmur {
+  width: 50vw;
   text-align: center;
+  padding: 12px 0;
 }
 @charset "utf-8";
 
