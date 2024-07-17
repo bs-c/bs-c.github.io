@@ -216,18 +216,18 @@
       
     </header>
 
-    <div class="post-content"><h2 id="關於-Karamba3D"><a href="#關於-Karamba3D" class="headerlink" title="關於 Karamba3D"></a>關於 Karamba3D</h2><p>&emsp;Karamba3D 首次發佈於 2010 年，為一互動式參數化工具，讓使用者能透過有限元素分析快速的對結構進行分析。其初始計算核心源於該團隊創始人 Clemens Preisinger 在 University of Applied Arts Vienna 執行的研究計畫”Algorithmic Generation of complex Spaceframes”，該計畫完成後與 Bollinger+Grohmann 合作並進一步開發為基於可視化程式環境 grasshopper 的互動式結構分析 plug-in。</p>
-<h2 id="有限元素法-Finite-Element-Method-FEM-於結構分析上的應用"><a href="#有限元素法-Finite-Element-Method-FEM-於結構分析上的應用" class="headerlink" title="有限元素法(Finite Element Method, FEM)於結構分析上的應用"></a>有限元素法(Finite Element Method, FEM)於結構分析上的應用</h2><p>&emsp;有限元素法為一數值方法，廣泛應用於土木、機械、航太、醫工等領域。藉由將複雜的幾何分割為小元素(element)(即將連續問題離散化)，再透過控制方程式對於不同元素(梁柱元素、連續體元素)進行描述。<br>&emsp;因 FEM 的優點在於經由推導後的結論易於程式化，現行市面上結構分析軟體如 SAP2000、ETABS、MIDAS 等大都採用 FEM 進行結構分析，其理論牽涉到變分、強形、弱形、座標轉換、線性代數等複雜數學問題，在這邊就不針對有限元素理論進行深入探討，有興趣的人可以上國立陽明交通大學開放式課程網站觀看楊子儀教授開設的「<a target="_blank" rel="noopener" href="https://ocw.nycu.edu.tw/?course_page=all-course/college-of-engineering/%E5%88%9D%E7%AD%89%E6%9C%89%E9%99%90%E5%85%83%E7%B4%A0%E6%B3%95-introduction-to-finite-element-method-%E5%9C%9F%E6%9C%A8%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E6%A5%8A%E5%AD%90%E5%84%80%E8%80%81"><strong>初等有限元素法</strong></a>」。</p>
-<h2 id="結構分析流程"><a href="#結構分析流程" class="headerlink" title="結構分析流程"></a>結構分析流程</h2><p>一般在進行結構分析時，大致可分為下述流程，並可透過 Karamba3D 提供的電池快速於 grasshopper 中進行操作。<br><img src="/../images/Karamba3D/Karamba3DStructureAnalyze/Structural%20analysis%20process.png" alt="structural analysis process]" width="600"></p>
-<p>1.材料與斷面設定:<br>根據使用的材料與斷面進行參數設定</p>
-<p>2.建立分析模型:<br>建立幾何模型，其中模型的建立由節點開始，透過節點來建立梁柱板牆等其他幾何元素，如 Beam A 是由 p1 與 p2 構成，Wall B 是由 p3、p4、p5、p6 構成等。</p>
+    <div class="post-content"><h1 id="關於-Karamba3D"><a href="#關於-Karamba3D" class="headerlink" title="關於 Karamba3D"></a>關於 Karamba3D</h1><p>&emsp;Karamba3D 首次發佈於 2010 年，為一互動式參數化工具，讓使用者能透過有限元素分析快速的對結構進行分析。其初始計算核心源於該團隊創始人 Clemens Preisinger 在 University of Applied Arts Vienna 執行的研究計畫”Algorithmic Generation of complex Spaceframes”，該計畫完成後與 Bollinger+Grohmann 合作並進一步開發為基於可視化程式環境 grasshopper 的互動式結構分析 plug-in。</p>
+<h1 id="有限元素法-Finite-Element-Method-FEM-於結構分析上的應用"><a href="#有限元素法-Finite-Element-Method-FEM-於結構分析上的應用" class="headerlink" title="有限元素法(Finite Element Method, FEM)於結構分析上的應用"></a>有限元素法(Finite Element Method, FEM)於結構分析上的應用</h1><p>&emsp;有限元素法為一數值方法，廣泛應用於土木、機械、航太、醫工等領域。藉由將複雜的幾何分割為小元素(element)(即將連續問題離散化)，再透過控制方程式對於不同元素(梁柱元素、連續體元素)進行描述。<br>&emsp;因 FEM 的優點在於經由推導後的結論易於程式化，現行市面上結構分析軟體如 SAP2000、ETABS、MIDAS 等大都採用 FEM 進行結構分析，其理論牽涉到變分、強形、弱形、座標轉換、線性代數等複雜數學問題，在這邊就不針對有限元素理論進行深入探討，有興趣的人可以上國立陽明交通大學開放式課程網站觀看楊子儀教授開設的「<a target="_blank" rel="noopener" href="https://ocw.nycu.edu.tw/?course_page=all-course/college-of-engineering/%E5%88%9D%E7%AD%89%E6%9C%89%E9%99%90%E5%85%83%E7%B4%A0%E6%B3%95-introduction-to-finite-element-method-%E5%9C%9F%E6%9C%A8%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E6%A5%8A%E5%AD%90%E5%84%80%E8%80%81"><strong>初等有限元素法</strong></a>」。</p>
+<h1 id="結構分析流程"><a href="#結構分析流程" class="headerlink" title="結構分析流程"></a>結構分析流程</h1><p>一般在進行結構分析時，大致可分為下述流程，並可透過 Karamba3D 提供的電池快速於 grasshopper 中進行操作。<br><img src="/../images/Karamba3D/Karamba3DStructureAnalyze/Structural%20analysis%20process.png" alt="structural analysis process]" width="600"></p>
+<h2 id="1-材料與斷面設定"><a href="#1-材料與斷面設定" class="headerlink" title="1.材料與斷面設定"></a>1.材料與斷面設定</h2><p>根據使用的材料與斷面進行參數設定</p>
+<h2 id="2-建立分析模型"><a href="#2-建立分析模型" class="headerlink" title="2.建立分析模型"></a>2.建立分析模型</h2><p>建立幾何模型，其中模型的建立由節點開始，透過節點來建立梁柱板牆等其他幾何元素，如 Beam A 是由 p1 與 p2 構成，Wall B 是由 p3、p4、p5、p6 構成等。</p>
 <img src="/../images/Karamba3D/Karamba3DStructureAnalyze/elements.png" alt="elements">
 
-<p>3.邊界條件設定與力量加載<br>根據設計需求(如:建築技術規則)與物理條件(如:自重，木構造接合部位乾縮)，進行合理的邊界條件設定與力量加載。</p>
+<h2 id="3-邊界條件設定與力量加載"><a href="#3-邊界條件設定與力量加載" class="headerlink" title="3.邊界條件設定與力量加載"></a>3.邊界條件設定與力量加載</h2><p>根據設計需求(如:建築技術規則)與物理條件(如:自重，木構造接合部位乾縮)，進行合理的邊界條件設定與力量加載。</p>
 <img src="/../images/Karamba3D/Karamba3DStructureAnalyze/bc&force.png" alt="boundary condition & force" width="500">
 
-<p>4.分析求解:<br>透過有限元素法根據前面所建立的模型、邊界條件與加載力量進行結構分析。</p>
-<p>參考資料:<br><a target="_blank" rel="noopener" href="https://karamba3d.com/">1.Karamba3d 官網</a><br><a target="_blank" rel="noopener" href="https://ocw.nycu.edu.tw/?course_page=all-course/college-of-engineering/%E5%88%9D%E7%AD%89%E6%9C%89%E9%99%90%E5%85%83%E7%B4%A0%E6%B3%95-introduction-to-finite-element-method-%E5%9C%9F%E6%9C%A8%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E6%A5%8A%E5%AD%90%E5%84%80%E8%80%81">2.國立陽明交通大學開放式課程網站-初等有限元素法</a></p>
+<h2 id="4-分析求解"><a href="#4-分析求解" class="headerlink" title="4.分析求解"></a>4.分析求解</h2><p>透過有限元素法根據前面所建立的模型、邊界條件與加載力量進行結構分析。</p>
+<h1 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料:"></a>參考資料:</h1><p><a target="_blank" rel="noopener" href="https://karamba3d.com/">1.Karamba3d 官網</a><br><a target="_blank" rel="noopener" href="https://ocw.nycu.edu.tw/?course_page=all-course/college-of-engineering/%E5%88%9D%E7%AD%89%E6%9C%89%E9%99%90%E5%85%83%E7%B4%A0%E6%B3%95-introduction-to-finite-element-method-%E5%9C%9F%E6%9C%A8%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E6%A5%8A%E5%AD%90%E5%84%80%E8%80%81">2.國立陽明交通大學開放式課程網站-初等有限元素法</a></p>
 </div>
 
     
